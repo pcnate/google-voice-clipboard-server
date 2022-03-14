@@ -1,0 +1,15 @@
+{
+  "name": "google-voice-clipboard-server",
+  "version": "0.0.1",
+  "description": "Copy images from clipboard and save to integrate with google voice image upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Baker <pcnate@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
