@@ -2,7 +2,7 @@ $content = Get-Clipboard -Format Image
 
 If ($content) {
 
-  $filename = $env:USERPROFILE + "\Desktop\capture.png"
+  $filename = $args[0]
 
   $content.Save($filename,'png')
 
